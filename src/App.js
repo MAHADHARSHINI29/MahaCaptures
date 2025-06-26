@@ -10,6 +10,7 @@ import NativeLandSection from "./components/NativeLandSection"
 import SkyCloudsSection from "./components/SkyCloudsSection"
 import FlowersSection from "./components/FlowersSection"
 import ImageModal from "./components/ImageModal"
+import BackToTop from "./components/BackToTop"
 import { images } from "./data/images"
 
 function App() {
@@ -55,6 +56,8 @@ function App() {
         imageSrc={modalImage?.src || ""}
         imageAlt={modalImage?.alt || ""}
       />
+
+      <BackToTop />
     </div>
   )
 }

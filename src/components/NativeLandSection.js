@@ -5,7 +5,7 @@ import GalleryItem from "./GalleryItem"
 
 const NativeLandSection = ({ images, openModal }) => {
   return (
-    <section className="relative py-20 px-6 max-w-7xl mx-auto z-20">
+    <section id="native-land-section" className="relative py-20 px-6 max-w-7xl mx-auto z-20">
       <div className="bg-gradient-to-br from-green-900/20 to-emerald-800/20 rounded-3xl p-8 md:p-16 backdrop-blur-sm border border-white/10">
         <motion.h2
           className="text-3xl md:text-5xl font-light text-center mb-8 bg-gradient-to-r from-cyan-300 to-pink-300 bg-clip-text text-transparent"

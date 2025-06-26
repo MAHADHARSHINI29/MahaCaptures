@@ -1,7 +1,14 @@
 // components/HeroSection.js
 import { motion } from "framer-motion"
+import useScrollToSection from "./useScrollToSection"
 
 const HeroSection = ({ backgroundY }) => {
+  const scrollToSection = useScrollToSection()
+
+  const handleScrollDown = () => {
+    scrollToSection("native-land-section")
+  }
+
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 z-20">
       <motion.div
@@ -37,14 +44,27 @@ const HeroSection = ({ backgroundY }) => {
         {'"My lens listens to the clouds, speaks with the flowers, and remembers the hills that raised me."'}
       </motion.p>
 
-      <motion.div
-        className="text-4xl animate-bounce"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 2 }}
-      >
-        ↓
-      </motion.div>
+      <motion.button
+  className="text-4xl cursor-pointer hover:text-cyan-300 transition-colors duration-300"
+  onClick={handleScrollDown}
+  initial={{ opacity: 0, y: 0 }}
+  animate={{ 
+    opacity: 1,
+    y: [0, -5, 0]  // subtle up and down motion
+  }}
+  transition={{
+    duration: 1.5,
+    delay: 2,
+    repeat: Infinity,
+    repeatType: "loop",
+    ease: "easeInOut"
+  }}
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  ↓
+</motion.button>
+
     </section>
   )
 }
