@@ -30,7 +30,7 @@ const FlowersSection = ({ images, openModal }) => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {images.map((image, index) => (
-            <GalleryItem key={index} image={image} index={index} onClick={() => openModal(image.src, image.alt)} />
+            <GalleryItem key={index} image={image} index={index}  />
           ))}
         </div>
       </div>
