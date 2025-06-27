@@ -180,5 +180,12 @@ export const images = {
       title: "Raindrop Elegance",
       caption: "Dew-kissed petals rise anew, \nA quiet bloom in lilac hue.",
     },
+    {
+      src: "/images/hibiscus.jpg",
+      alt: "Crimson Ruffle Elegance",
+      title: "Crimson Ruffle Elegance",
+      caption: "A fiery bloom in nature’s embrace,\nHibiscus dances with sunlit grace.",
+    },
+    
   ],
 }
