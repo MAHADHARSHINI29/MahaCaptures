@@ -131,6 +131,13 @@ export const images = {
       title: "Crimson Ruffles",
       caption: "A bold red bloom with passion high, \nDances gently beneath the sky.",
     },
+    
+    {
+      src: "/images/group_of_flowers.jpg",
+      alt: "Elegance in Pink",
+      title: "Elegance in Pink",
+      caption: "Graceful trumpets rise to greet the sky, \nWhispers of pink in a green lullaby.",
+    },
     {
       src: "/images/IMG_20230113_082759_33f00a.jpg",
       alt: "Whispers in the Grass",
