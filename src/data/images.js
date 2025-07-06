@@ -52,6 +52,12 @@ export const images = {
   ],
   skies: [
     {
+      src: "/images/skies1.jpg",
+      alt: "Fading Light",
+      title: "Fading Light",
+      caption: "Every sunset brings a soft embrace,\nA warm goodbye, a timeless grace.",
+    },
+    {
       src: "/images/IMG_20250603_184717.jpg",
       alt: "Palm Shadows at Dusk",
       title: "Palm Shadows at Dusk",
@@ -64,10 +70,10 @@ export const images = {
       caption: "A tender blush the sky does wear,\nA fading glow hangs soft and rare.",
     },
     {
-      src: "/images/new.jpg",
-      alt: "Skyswept Serenity",
-      title: "Skyswept Serenity",
-      caption: "A wash of white in drifting blue,\nClouds sketch stories soft and true.",
+      src: "/images/skies3.jpg",
+      alt: " Painted Skies",
+      title: " Painted Skies",
+      caption: "The sky dances in silent grace,\nDark clouds waltz across golden space.",
     },
     {
       src: "/images/IMG_20250319_185023.jpg",
@@ -76,28 +82,43 @@ export const images = {
       caption: "Shadows melt in ember light,\nThe land exhales the breath of night.",
     },
     {
-      src: "/images/IMG_20250623_184411.jpg",
-      alt: "Midnight in Bloom",
-      title: "Midnight in Bloom",
-      caption: "Ink-stained skies begin to swell,\nAs night prepares its silent spell.",
+      src: "/images/new.jpg",
+      alt: "Skyswept Serenity",
+      title: "Skyswept Serenity",
+      caption: "A wash of white in drifting blue,\nClouds sketch stories soft and true.",
     },
+    
+    
     {
       src: "/images/IMG_20250320_182611.jpg",
       alt: "Heaven's Quilt Unfolded",
       title: "Heaven's Quilt Unfolded",
       caption: "A mountain bows to evening's light,\nAs golden whispers steal the night.",
     },
+   
     {
-      src: "/images/IMG_20250430_185055.jpg",
-      alt: "Twilight Whispers in Crimson",
-      title: "Twilight Whispers in Crimson",
-      caption: "Crimson sighs behind the trees,\nEvening hums on twilight's breeze.",
+      src: "/images/skies4.jpg",
+      alt: "Twilight Hues",
+      title: "Twilight Hues",
+      caption: "No words, just colors that softly fade,\nAs the horizon kisses the last light.",
     },
     {
       src: "/images/IMG_20250525_082106.jpg",
       alt: "A Window to Calm",
       title: "A Window to Calm",
       caption: "Sky peeks through with gentle grace,\nFramed in clouds, a secret space.",
+    },
+    {
+      src: "/images/IMG_20250623_184411.jpg",
+      alt: "Midnight in Bloom",
+      title: "Midnight in Bloom",
+      caption: "Ink-stained skies begin to swell,\nAs night prepares its silent spell.",
+    },
+     {
+      src: "/images/IMG_20250430_185055.jpg",
+      alt: "Twilight Whispers in Crimson",
+      title: "Twilight Whispers in Crimson",
+      caption: "Crimson sighs behind the trees,\nEvening hums on twilight's breeze.",
     },
   ],
   flowers: [
