@@ -200,6 +200,13 @@ export const images = {
       title: "Petals of Serenity",
       caption: "A sudden bloom in silver rain, \nA fleeting joy, yet sweet and plain.",
     },
+   
+    {
+      src: "/images/IMG_20250818_074556.jpg",
+      alt: "Sunlit Chimes",
+      title: "Sunlit Chimes",
+      caption: "Golden trumpets sing through the air, \nA sunlit fanfare bright and fair.",
+    },
     {
       src: "/images/IMG_20250202_135031.jpg",
       alt: "Sunlit Chimes",
