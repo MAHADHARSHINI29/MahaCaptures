@@ -188,12 +188,7 @@ export const images = {
       title: "Whispers in the Grass",
       caption: "Like cotton candy on emerald green, \nNature's brush paints a velvet scene.",
     },
-    {
-      src: "/images/IMG_20230113_083923_45be26.jpg",
-      alt: "Crimson Cascades",
-      title: "Crimson Cascades",
-      caption: "Paper-thin flames in tropical light, \nA cascade of pink in endless flight.",
-    },
+    
     {
       src: "/images/IMG_20250126_085900.jpg",
       alt: "Petals of Serenity",
@@ -236,6 +231,12 @@ export const images = {
       alt: "Crimson Ruffle Elegance",
       title: "Crimson Ruffle Elegance",
       caption: "A fiery bloom in nature’s embrace,\nHibiscus dances with sunlit grace.",
+    },
+    {
+      src: "/images/IMG_20230113_083923_45be26.jpg",
+      alt: "Crimson Cascades",
+      title: "Crimson Cascades",
+      caption: "Paper-thin flames in tropical light, \nA cascade of pink in endless flight.",
     },
     
   ],
