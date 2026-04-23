@@ -1,36 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+# 📸 MahaCaptures - Premium Nature Photography Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MahaCaptures** is a professional photography portfolio website designed to showcase high-quality nature photography with an elegant and immersive user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Gallery**: A beautiful grid-based gallery showcasing diverse nature photography categories (Native Land, Skies, Flowers).
+- **Immersive Viewing**: Full-screen image modals with detailed captions and descriptions.
+- **Premium Design**: Built with a focus on aesthetics, using smooth animations (Framer Motion) and a clean, responsive layout.
+- **Modern Tech Stack**: Leveraging React 19 and Vite for lightning-fast performance.
+- **Poetic Storytelling**: Each photograph is accompanied by poetic captions that bring the visuals to life.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: [React 19](https://reactjs.org/)
+- **Bundler**: [Vite 7](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) & Vanilla CSS
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Deployment**: [Netlify](https://www.netlify.com/)
 
-## Expanding the ESLint configuration
+## 🚀 Local Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# 📸 MahaCaptures
+To run this project locally, follow these steps:
 
-**MahaCaptures** is a personal photography portfolio website showcasing captivating moments, nature shots, and artistic captures by Mahadharshini. Built using modern web technologies, this site offers a clean, responsive, and elegant gallery to display visual storytelling.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/MAHADHARSHINI29/MahaCaptures.git
+   ```
 
-## 🚀 Features
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-- 📷 Responsive image gallery
-- 📝 Creative photo titles and botanical info
-- 🔍 Image zoom on hover
-- 💬 Custom phrases/captions for each photo
-- 🎨 Styled using Tailwind CSS or custom CSS
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
 
-## 🌐 Live Website
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
 
-👉 [Visit MahaCaptures](https://mahacaptures.netlify.app/)
+## 🌐 Live Demo
 
+Visit the live site: [https://mahacaptures.netlify.app/](https://mahacaptures.netlify.app/)
 
->>>>>>> ade6c2493c6acf92d410d140c915473b0cb984f9
+## 👤 Author
+
+**Mahadharshini P**
+- GitHub: [@MAHADHARSHINI29](https://github.com/MAHADHARSHINI29)
+- LinkedIn: [Mahadharshini P](https://linkedin.com/in/mahadharshini29)
+
+---
+© 2026 Mahadharshini P. All rights reserved.
