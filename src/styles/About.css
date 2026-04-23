@@ -1,0 +1,95 @@
+.about-page {
+  padding-top: 100px;
+}
+
+.about-hero {
+  padding: 8rem 0;
+  text-align: center;
+  background: var(--color-accent);
+  color: var(--color-text-light);
+}
+
+.about-hero h1 {
+  font-size: 4rem;
+}
+
+.about-hero h1 span {
+  color: var(--color-primary);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.about-content {
+  padding: 8rem 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+}
+
+.about-text h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+}
+
+.stats {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.stat span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.value-card {
+  padding: 3rem;
+  background: var(--glass-bg);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.value-card h3 {
+  margin: 1.5rem 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

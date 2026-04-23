@@ -1,0 +1,205 @@
+[
+  {
+    "id": "1",
+    "title": "Whispers Before Dawn",
+    "category": "nature",
+    "imageURL": "/images/IMG_20250928_181953275_HDR_AE.jpg",
+    "description": "Clouds part slow in twilight's grace, A mountain's hush in heaven's embrace."
+  },
+  {
+    "id": "2",
+    "title": "Calm Waters, Silent Skies",
+    "category": "nature",
+    "imageURL": "/images/IMG-20240709-WA0001.jpg",
+    "description": "Silence flows where waters meet sky, A silver hush as dreams float by."
+  },
+  {
+    "id": "3",
+    "title": "When Thunder Sleeps",
+    "category": "nature",
+    "imageURL": "/images/IMG_20250928_175121242_HDR_AE.jpg",
+    "description": "Thunder sleeps in veiled delight, Clouds stretch wide in pale twilight."
+  },
+  {
+    "id": "4",
+    "title": "Breath of the Mountains",
+    "category": "nature",
+    "imageURL": "/images/mountain2.jpg",
+    "description": "Skies painted in wandering blue, Mountains hum beneath the hue."
+  },
+  {
+    "id": "5",
+    "title": "Last Light's Embrace",
+    "category": "nature",
+    "imageURL": "/images/IMG_20250503_175147.jpg",
+    "description": "The sun sinks low with amber fire, Cradled by hills in soft desire"
+  },
+  {
+    "id": "6",
+    "title": "Sky Woven in Silver",
+    "category": "nature",
+    "imageURL": "/images/mountain1.jpg",
+    "description": "Clouds race wild in quiet bloom, The world beneath in twilight's gloom."
+  },
+  {
+    "id": "7",
+    "title": "Echoes of Dusk",
+    "category": "nature",
+    "imageURL": "/images/IMG-20250504-WA0017.jpg",
+    "description": "Mountains whisper to the night, Wrapped in dusk, a fading light."
+  },
+  {
+    "id": "8",
+    "title": "Light Between the Leaves",
+    "category": "nature",
+    "imageURL": "/images/IMG_20250503_111722.jpg",
+    "description": "Sunlight peeks through woven lace, Nature's breath in a golden trace."
+  },
+  {
+    "id": "9",
+    "title": "Fading Light",
+    "category": "skies",
+    "imageURL": "/images/IMG_20250922_182229[1].jpg",
+    "description": "Every sunset brings a soft embrace, A warm goodbye, a timeless grace."
+  },
+  {
+    "id": "10",
+    "title": "Palm Shadows at Dusk",
+    "category": "skies",
+    "imageURL": "/images/IMG_20250603_184717.jpg",
+    "description": "Palms stand still in twilight's breath, Guarding dreams as day meets death."
+  },
+  {
+    "id": "11",
+    "title": "The Sky Breathes Ember",
+    "category": "skies",
+    "imageURL": "/images/IMG-20250419-WA0029.jpg",
+    "description": "A tender blush the sky does wear, A fading glow hangs soft and rare."
+  },
+  {
+    "id": "12",
+    "title": "Painted Skies",
+    "category": "skies",
+    "imageURL": "/images/skies3.jpg",
+    "description": "The sky dances in silent grace, Dark clouds waltz across golden space."
+  },
+  {
+    "id": "13",
+    "title": "Ashes of Daylight",
+    "category": "skies",
+    "imageURL": "/images/IMG_20250319_185023.jpg",
+    "description": "Shadows melt in ember light, The land exhales the breath of night."
+  },
+  {
+    "id": "14",
+    "title": "Heaven's Quilt Unfolded",
+    "category": "skies",
+    "imageURL": "/images/IMG_20250320_182611.jpg",
+    "description": "A mountain bows to evening's light, As golden whispers steal the night."
+  },
+  {
+    "id": "15",
+    "title": "Twilight Whispers in Crimson",
+    "category": "skies",
+    "imageURL": "/images/IMG_20250430_185055.jpg",
+    "description": "Crimson sighs behind the trees, Evening hums on twilight's breeze."
+  },
+  {
+    "id": "16",
+    "title": "Scarlet Dawn Embrace",
+    "category": "flowers",
+    "imageURL": "/images/IMG_20201108_144939.jpg",
+    "description": "A vibrant **scarlet** bloom reaching for the light, its elegant texture seeming to embrace the heat of a tropical sun."
+  },
+  {
+    "id": "17",
+    "title": "Ethereal White Glow",
+    "category": "flowers",
+    "imageURL": "/images/IMG_20230531_070813.jpg",
+    "description": "Soft, **pure white** stars that glow in the dusk, their elegant petals spun like lace in a quiet, midnight embrace."
+  },
+  {
+    "id": "18",
+    "title": "Roseate Velvet Symphony",
+    "category": "flowers",
+    "imageURL": "/images/IMG_20230713_082318.jpg",
+    "description": "A cluster of **soft pink** petals rising in an elegant embrace, their velvet texture shimmering under the morning dew."
+  },
+  {
+    "id": "19",
+    "title": "Golden Sunburst",
+    "category": "flowers",
+    "imageURL": "/images/IMG-20200710-WA0004.jpg",
+    "description": "Bathed in **vibrant gold**, these elegant petals seem to embrace the sunray, their soft texture dancing in the breeze."
+  },
+  {
+    "id": "20",
+    "title": "Crimson Ruffle Dance",
+    "category": "flowers",
+    "imageURL": "/images/IMG_20241231_171641.jpg",
+    "description": "A bold **deep red** flower with elegant, ruffled edges that seem to embrace the air in a soft, passionate display."
+  },
+  {
+    "id": "21",
+    "title": "Pink Trumpet Chorus",
+    "category": "flowers",
+    "imageURL": "/images/group_of_flowers.jpg",
+    "description": "Elegantly shaped **pale pink** trumpets that rise from the green, their soft textures creating a rhythmic embrace."
+  },
+  {
+    "id": "22",
+    "title": "Velvet Rose Clouds",
+    "category": "flowers",
+    "imageURL": "/images/IMG_20230113_082759_33f00a.jpg",
+    "description": "Dreamy, **soft rose** petals clustered together in an elegant embrace, feeling like silk against a velvet sky."
+  },
+  {
+    "id": "23",
+    "title": "Silver Rain Serenity",
+    "category": "flowers",
+    "imageURL": "/images/IMG_20250126_085900.jpg",
+    "description": "A **delicate silver** sheen covers these soft petals as they embrace the rain, seeming both elegant and fragile."
+  },
+  {
+    "id": "24",
+    "title": "Canary Fanfare",
+    "category": "flowers",
+    "imageURL": "/images/IMG_20250818_074556.jpg",
+    "description": "Bright **canary yellow** bells that hang in an elegant cluster, their soft edges seeming to embrace the humid air."
+  },
+  {
+    "id": "25",
+    "title": "Blushing Ember",
+    "category": "flowers",
+    "imageURL": "/images/InShot_20250530_140522507.jpg",
+    "description": "A **soft peach** exterior hiding a fiery ember core, this elegant bloom embraces the last light of the day."
+  },
+  {
+    "id": "26",
+    "title": "Indigo Dusk Petals",
+    "category": "flowers",
+    "imageURL": "/images/IMG_20250202_140122.jpg",
+    "description": "Deep **indigo blue** wings that seem to embrace the twilight, their elegant and soft texture dreaming of the stars."
+  },
+  {
+    "id": "27",
+    "title": "Lilac Mist Whisper",
+    "category": "flowers",
+    "imageURL": "/images/20200913_154953.jpg",
+    "description": "A soft, **muted lilac** hue that elegantly embraces the morning mist, its delicate texture seeming almost ethereal."
+  },
+  {
+    "id": "28",
+    "title": "Hibiscus Flame Embrace",
+    "category": "flowers",
+    "imageURL": "/images/hibiscus.jpg",
+    "description": "Vibrant **fiery red** petals that unfold in an elegant, sun-drenched embrace, displaying a soft yet powerful texture."
+  },
+  {
+    "id": "29",
+    "title": "Blushing Orchid Petals",
+    "category": "flowers",
+    "imageURL": "/images/new2.jpeg",
+    "description": "The **soft, rosy** blush of an elegant orchid as it first unfolds, its delicate heart seeming to embrace the morning sky."
+  }
+]

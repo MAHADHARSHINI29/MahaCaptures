@@ -1,0 +1,112 @@
+.photo-card {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background: var(--glass-bg);
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+}
+
+.card-image {
+  width: 110%; /* Slightly larger to allow for movement */
+  height: 110%;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+  opacity: 0;
+  animation: slow-drift 30s infinite alternate ease-in-out;
+  transform: translate(-5%, -5%);
+}
+
+@keyframes slow-drift {
+  0% { transform: translate(-5%, -5%) scale(1); }
+  50% { transform: translate(0%, -2%) scale(1.05); }
+  100% { transform: translate(-2%, 0%) scale(1); }
+}
+
+.card-image.loaded {
+  opacity: 1;
+}
+
+.photo-skeleton {
+  width: 100%;
+  aspect-ratio: 4/5;
+}
+
+.photo-card:hover .card-image {
+  transform: scale(1.1);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+}
+
+.photo-card:hover .card-overlay {
+  opacity: 1;
+}
+
+.overlay-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.overlay-content p {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.overlay-actions {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+.photo-card:hover .overlay-actions {
+  transform: translateY(0);
+}
+
+.action-btn {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+}
+
+.action-btn:hover {
+  background: var(--color-primary);
+  transform: scale(1.1);
+}
+
+.action-btn.liked {
+  color: #ff4d4d;
+}
