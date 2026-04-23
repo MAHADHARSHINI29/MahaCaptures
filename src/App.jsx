@@ -61,11 +61,6 @@ function App() {
       <footer className="main-footer">
         <div className="container">
           <p>&copy; {new Date().getFullYear()} MahaCaptures. All rights reserved.</p>
-          <div className="social-links">
-            <a href="#">Instagram</a>
-            <a href="#">Flickr</a>
-            <a href="#">Twitter</a>
-          </div>
         </div>
       </footer>
     </div>
