@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-body {
-=======
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,13 +11,11 @@ body {
 body {
   font-family: "Georgia", "Times New Roman", serif;
   overflow-x: hidden;
->>>>>>> ade6c2493c6acf92d410d140c915473b0cb984f9
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-<<<<<<< HEAD
 .main-footer {
   padding: 4rem 0;
   background: var(--color-bg);
@@ -59,7 +54,7 @@ body {
     gap: 1.5rem;
   }
 }
-=======
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -144,4 +139,3 @@ a:focus {
   outline: 2px solid #a8edea;
   outline-offset: 2px;
 }
->>>>>>> ade6c2493c6acf92d410d140c915473b0cb984f9
