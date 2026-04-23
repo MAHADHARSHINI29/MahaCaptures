@@ -131,63 +131,102 @@
 
 @media (max-width: 900px) {
   .modal-backdrop {
-    padding: 1rem;
+    padding: 0;
+    backdrop-filter: blur(10px);
   }
 
   .modal-container {
-    height: auto;
-    max-height: 90vh;
+    height: 100%;
+    max-height: 100vh;
+    border-radius: 0;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: var(--color-bg);
+  }
+
+  .modal-close {
+    position: fixed; /* Keep it visible while scrolling */
+    top: 1rem;
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   }
 
   .modal-content {
     flex-direction: column;
     height: auto;
+    min-height: 100%;
   }
 
   .modal-image-container {
     flex: none;
-    height: 40vh;
-    min-height: 300px;
+    width: 100%;
+    height: 50vh;
+    min-height: 350px;
+  }
+
+  .modal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Fill the top area nicely */
   }
 
   .modal-details {
-    flex: none;
-    padding: 1.5rem;
-    overflow: visible;
+    flex: 1;
+    padding: 2rem 1.5rem 4rem; /* Extra padding at bottom for better feel */
+    justify-content: flex-start;
+    gap: 1.5rem;
+    background: var(--color-bg);
   }
 
   .details-header h2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
   }
 
   .details-body p {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
     margin-bottom: 1.5rem;
+    opacity: 0.9;
   }
 
-  .modal-close {
-    top: 1rem;
-    right: 1rem;
-    width: 40px;
-    height: 40px;
+  .details-footer {
+    margin-top: auto; /* Push to bottom of details section */
+    padding-top: 2rem;
+    flex-direction: row; /* Keep them side by side if possible */
+    justify-content: space-between;
   }
 }
 
 @media (max-width: 480px) {
   .modal-image-container {
-    height: 35vh;
+    height: 45vh;
+    min-height: 300px;
   }
   
   .details-header h2 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
-  
+
   .details-footer {
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.2rem;
+  }
+
+  .footer-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+    background: var(--glass-bg);
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
   }
 }

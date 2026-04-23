@@ -4,6 +4,17 @@ import { X, Heart, Share2, CloudRain } from 'lucide-react';
 import '../styles/Modal.css';
 
 const Modal = ({ photo, onClose }) => {
+  React.useEffect(() => {
+    if (photo) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [photo]);
+
   if (!photo) return null;
 
   return (
