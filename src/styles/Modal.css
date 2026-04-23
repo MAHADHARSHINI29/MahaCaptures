@@ -130,13 +130,64 @@
 }
 
 @media (max-width: 900px) {
+  .modal-backdrop {
+    padding: 1rem;
+  }
+
+  .modal-container {
+    height: auto;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
   .modal-content {
     flex-direction: column;
+    height: auto;
   }
-  .modal-container {
-    height: 95vh;
+
+  .modal-image-container {
+    flex: none;
+    height: 40vh;
+    min-height: 300px;
   }
+
   .modal-details {
-    padding: 2rem;
+    flex: none;
+    padding: 1.5rem;
+    overflow: visible;
+  }
+
+  .details-header h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .details-body p {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .modal-close {
+    top: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-image-container {
+    height: 35vh;
+  }
+  
+  .details-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .details-footer {
+    flex-direction: column;
+    gap: 1rem;
   }
 }

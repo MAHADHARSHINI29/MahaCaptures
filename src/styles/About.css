@@ -89,7 +89,43 @@
 }
 
 @media (max-width: 768px) {
+  .about-hero {
+    padding: 4rem 1.5rem;
+  }
+  
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-content {
+    padding: 4rem 0;
+  }
+
   .grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .stats {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .value-card {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .about-text h2 {
+    font-size: 1.75rem;
   }
 }

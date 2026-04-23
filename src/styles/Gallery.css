@@ -60,10 +60,41 @@
 }
 
 @media (max-width: 768px) {
+  .gallery-section {
+    padding: 4rem 1.5rem;
+  }
+  
+  .gallery-group {
+    margin-bottom: 5rem;
+  }
+
+  .section-header {
+    margin-bottom: 2.5rem;
+  }
+
   .section-title {
     font-size: 2.2rem;
   }
   .section-subtitle {
     font-size: 1.2rem;
+  }
+  
+  .section-desc {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+
+  .gallery-grid-large {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-section {
+    padding: 3rem 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
   }
 }

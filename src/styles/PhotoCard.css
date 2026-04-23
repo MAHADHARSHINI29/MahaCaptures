@@ -110,3 +110,25 @@
 .action-btn.liked {
   color: #ff4d4d;
 }
+
+@media (max-width: 768px) {
+  .card-overlay {
+    opacity: 1;
+    background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 40%);
+  }
+
+  .overlay-actions {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .overlay-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .action-btn {
+    width: 36px;
+    height: 36px;
+  }
+}
+
