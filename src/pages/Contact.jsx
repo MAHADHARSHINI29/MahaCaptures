@@ -36,14 +36,14 @@ const Contact = () => {
               <Mail />
               <div>
                 <h3>Email</h3>
-                <p>maha@mahacaptures.com</p>
+                <p>mahadharu2931@gmail.com</p>
               </div>
             </div>
             <div className="info-item">
               <Phone />
               <div>
                 <h3>Phone</h3>
-                <p>+91 98765 43210</p>
+                <p>+91 8122720771</p>
               </div>
             </div>
             <div className="info-item">
