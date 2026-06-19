@@ -56,25 +56,39 @@
     "description": "Sunlight peeks through woven lace, Nature's breath in a golden trace."
   },
   {
+    "id": "33",
+    "title": "Purple Mountains' Dream",
+    "category": "skies",
+    "imageURL": "/images/mountain_twilight.jpg",
+    "description": "In shades of lavender and violet deep, Mountains cradle secrets that daylight keeps, A purple whisper before the stars their vigil weep."
+  },
+  {
+    "id": "32",
+    "title": "Mirror of Amber Light",
+    "category": "skies",
+    "imageURL": "/images/reflection_sunset.jpg",
+    "description": "What stands above is mirrored below, A golden river of reflected glow, Where earth and sky become one in twilight's flow."
+  },
+  {
+    "id": "31",
+    "title": "Power Lines at Twilight",
+    "category": "skies",
+    "imageURL": "/images/palms_and_towers.jpg",
+    "description": "Where nature meets the pulse of progress, Towers stand tall beneath blushing sky, Palms bow gently as daylight dies."
+  },
+  {
+    "id": "30",
+    "title": "Desert's Embrace at Dusk",
+    "category": "skies",
+    "imageURL": "/images/desert_sunset_silhouette.jpg",
+    "description": "Golden light meets the land as silhouettes dance, A whispered goodbye where earth and sky stand."
+  },
+  {
     "id": "9",
     "title": "Fading Light",
     "category": "skies",
     "imageURL": "/images/IMG_20250922_182229[1].jpg",
     "description": "Every sunset brings a soft embrace, A warm goodbye, a timeless grace."
-  },
-  {
-    "id": "10",
-    "title": "Palm Shadows at Dusk",
-    "category": "skies",
-    "imageURL": "/images/IMG_20250603_184717.jpg",
-    "description": "Palms stand still in twilight's breath, Guarding dreams as day meets death."
-  },
-  {
-    "id": "11",
-    "title": "The Sky Breathes Ember",
-    "category": "skies",
-    "imageURL": "/images/IMG-20250419-WA0029.jpg",
-    "description": "A tender blush the sky does wear, A fading glow hangs soft and rare."
   },
   {
     "id": "12",
@@ -84,19 +98,20 @@
     "description": "The sky dances in silent grace, Dark clouds waltz across golden space."
   },
   {
-    "id": "13",
-    "title": "Ashes of Daylight",
+    "id": "11",
+    "title": "The Sky Breathes Ember",
     "category": "skies",
-    "imageURL": "/images/IMG_20250319_185023.jpg",
-    "description": "Shadows melt in ember light, The land exhales the breath of night."
+    "imageURL": "/images/IMG-20250419-WA0029.jpg",
+    "description": "A tender blush the sky does wear, A fading glow hangs soft and rare."
   },
   {
-    "id": "14",
-    "title": "Heaven's Quilt Unfolded",
+    "id": "10",
+    "title": "Palm Shadows at Dusk",
     "category": "skies",
-    "imageURL": "/images/IMG_20250320_182611.jpg",
-    "description": "A mountain bows to evening's light, As golden whispers steal the night."
+    "imageURL": "/images/IMG_20250603_184717.jpg",
+    "description": "Palms stand still in twilight's breath, Guarding dreams as day meets death."
   },
+  
   {
     "id": "15",
     "title": "Twilight Whispers in Crimson",
@@ -104,6 +119,14 @@
     "imageURL": "/images/IMG_20250430_185055.jpg",
     "description": "Crimson sighs behind the trees, Evening hums on twilight's breeze."
   },
+  {
+    "id": "13",
+    "title": "Ashes of Daylight",
+    "category": "skies",
+    "imageURL": "/images/IMG_20250319_185023.jpg",
+    "description": "Shadows melt in ember light, The land exhales the breath of night."
+  },
+  
   {
     "id": "16",
     "title": "Scarlet Dawn Embrace",

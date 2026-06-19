@@ -80,38 +80,41 @@ export const images = {
     },
   ],
   skies: [
-    
     {
-      src: "/images/IMG_20250922_182229[1].jpg",
-      alt: "Fading Light",
-      title: "Fading Light",
-      caption: "Every sunset brings a soft embrace,\nA warm goodbye, a timeless grace.",
+      src: "/images/mountain_twilight.jpg",
+      alt: "Purple Mountains' Dream",
+      title: "Purple Mountains' Dream",
+      caption: "In shades of lavender and violet deep,\nMountains cradle secrets that daylight keeps,\nA purple whisper before the stars their vigil weep.",
     },
     {
-      src: "/images/IMG_20250907_183417_1.jpg",
-      alt: "Fading Light",
-      title: "Fading Light",
-      caption: "Every sunset brings a soft embrace,\nA warm goodbye, a timeless grace.",
+      src: "/images/reflection_sunset.jpg",
+      alt: "Mirror of Amber Light",
+      title: "Mirror of Amber Light",
+      caption: "What stands above is mirrored below,\nA golden river of reflected glow,\nWhere earth and sky become one in twilight's flow.",
     },
     {
-      src: "/images/skies1.jpg",
-      alt: "Fading Light",
-      title: "Fading Light",
-      caption: "Every sunset brings a soft embrace,\nA warm goodbye, a timeless grace.",
-    },
-
-   
-    {
-      src: "/images/IMG_20250603_184717.jpg",
-      alt: "Palm Shadows at Dusk",
-      title: "Palm Shadows at Dusk",
-      caption: "Palms stand still in twilight's breath,\nGuarding dreams as day meets death.",
+      src: "/images/palms_and_towers.jpg",
+      alt: "Power Lines at Twilight",
+      title: "Power Lines at Twilight",
+      caption: "Where nature meets the pulse of progress,\nTowers stand tall beneath blushing sky,\nPalms bow gently as daylight dies.",
     },
     {
-      src: "/images/IMG-20250419-WA0029.jpg",
-      alt: "The Sky Breathes Ember",
-      title: "The Sky Breathes Ember",
-      caption: "A tender blush the sky does wear,\nA fading glow hangs soft and rare.",
+      src: "/images/desert_sunset_silhouette.jpg",
+      alt: "Desert's Embrace at Dusk",
+      title: "Desert's Embrace at Dusk",
+      caption: "Golden light meets the land as silhouettes dance,\nA whispered goodbye where earth and sky stand.",
+    },
+    {
+      src: "/images/IMG_20250430_185055.jpg",
+      alt: "Twilight Whispers in Crimson",
+      title: "Twilight Whispers in Crimson",
+      caption: "Crimson sighs behind the trees,\nEvening hums on twilight's breeze.",
+    },
+    {
+      src: "/images/IMG_20250319_185023.jpg",
+      alt: "Ashes of Daylight",
+      title: "Ashes of Daylight",
+      caption: "Shadows melt in ember light,\nThe land exhales the breath of night.",
     },
     {
       src: "/images/skies3.jpg",
@@ -120,28 +123,22 @@ export const images = {
       caption: "The sky dances in silent grace,\nDark clouds waltz across golden space.",
     },
     {
-      src: "/images/IMG_20250319_185023.jpg",
-      alt: "Ashes of Daylight",
-      title: "Ashes of Daylight",
-      caption: "Shadows melt in ember light,\nThe land exhales the breath of night.",
+      src: "/images/IMG-20250419-WA0029.jpg",
+      alt: "The Sky Breathes Ember",
+      title: "The Sky Breathes Ember",
+      caption: "A tender blush the sky does wear,\nA fading glow hangs soft and rare.",
     },
-    
-    
-    
     {
-      src: "/images/IMG_20250320_182611.jpg",
-      alt: "Heaven's Quilt Unfolded",
-      title: "Heaven's Quilt Unfolded",
-      caption: "A mountain bows to evening's light,\nAs golden whispers steal the night.",
+      src: "/images/IMG_20250603_184717.jpg",
+      alt: "Palm Shadows at Dusk",
+      title: "Palm Shadows at Dusk",
+      caption: "Palms stand still in twilight's breath,\nGuarding dreams as day meets death.",
     },
-   
-    
-  
-     {
-      src: "/images/IMG_20250430_185055.jpg",
-      alt: "Twilight Whispers in Crimson",
-      title: "Twilight Whispers in Crimson",
-      caption: "Crimson sighs behind the trees,\nEvening hums on twilight's breeze.",
+    {
+      src: "/images/IMG_20250922_182229[1].jpg",
+      alt: "Fading Light",
+      title: "Fading Light",
+      caption: "Every sunset brings a soft embrace,\nA warm goodbye, a timeless grace.",
     },
   ],
   flowers: [
@@ -198,12 +195,6 @@ export const images = {
    
     {
       src: "/images/IMG_20250818_074556.jpg",
-      alt: "Sunlit Chimes",
-      title: "Sunlit Chimes",
-      caption: "Golden trumpets sing through the air, \nA sunlit fanfare bright and fair.",
-    },
-    {
-      src: "/images/IMG_20250202_135031.jpg",
       alt: "Sunlit Chimes",
       title: "Sunlit Chimes",
       caption: "Golden trumpets sing through the air, \nA sunlit fanfare bright and fair.",
