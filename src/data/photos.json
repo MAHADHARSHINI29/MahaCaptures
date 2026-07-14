@@ -69,13 +69,7 @@
     "imageURL": "/images/reflection_sunset.jpg",
     "description": "What stands above is mirrored below, A golden river of reflected glow, Where earth and sky become one in twilight's flow."
   },
-  {
-    "id": "31",
-    "title": "Power Lines at Twilight",
-    "category": "skies",
-    "imageURL": "/images/palms_and_towers.jpg",
-    "description": "Where nature meets the pulse of progress, Towers stand tall beneath blushing sky, Palms bow gently as daylight dies."
-  },
+  
   {
     "id": "30",
     "title": "Desert's Embrace at Dusk",
@@ -90,12 +84,72 @@
     "imageURL": "/images/IMG_20250922_182229[1].jpg",
     "description": "Every sunset brings a soft embrace, A warm goodbye, a timeless grace."
   },
+  
+  {
+    "id": "35",
+    "title": "Velvet Sunset Drift",
+    "category": "skies",
+    "imageURL": "/images/Snew2.jpeg",
+    "description": "Soft layers of color melt across the sky as the evening light settles into quiet beauty."
+  },
+ 
+  
+  {
+    "id": "38",
+    "title": "Quiet Flame Above",
+    "category": "skies",
+    "imageURL": "/images/Snew5.jpeg",
+    "description": "A warm blaze of sunset light floats above the horizon, calm and radiant."
+  },
+  {
+    "id": "39",
+    "title": "Amber Cloudscape",
+    "category": "skies",
+    "imageURL": "/images/Snew6.jpeg",
+    "description": "Scattered clouds glow in amber light as the day softens into evening."
+  },
+  {
+    "id": "40",
+    "title": "Hushed Twilight Veil",
+    "category": "skies",
+    "imageURL": "/images/Snew7.jpeg",
+    "description": "Gentle sunset tones wrap the sky in a soft veil of color and calm."
+  },
+  {
+    "id": "41",
+    "title": "Airborne Sunset Dream",
+    "category": "skies",
+    "imageURL": "/images/Snew8.jpeg",
+    "description": "An airy evening scene where clouds drift through a luminous sunset glow."
+  },
+ 
+  {
+    "id": "43",
+    "title": "Last Light Reverie",
+    "category": "skies",
+    "imageURL": "/images/Snew10.jpeg",
+    "description": "A final hush of color settles over the sky as the sunset fades into evening."
+  },
+  {
+    "id": "31",
+    "title": "Power Lines at Twilight",
+    "category": "skies",
+    "imageURL": "/images/palms_and_towers.jpg",
+    "description": "Where nature meets the pulse of progress, Towers stand tall beneath blushing sky, Palms bow gently as daylight dies."
+  },
   {
     "id": "12",
     "title": "Painted Skies",
     "category": "skies",
     "imageURL": "/images/skies3.jpg",
     "description": "The sky dances in silent grace, Dark clouds waltz across golden space."
+  },
+   {
+    "id": "42",
+    "title": "Open Sky at Dusk",
+    "category": "skies",
+    "imageURL": "/images/Snew9.jpeg",
+    "description": "The evening sky opens wide, glowing with soft color and peaceful light."
   },
   {
     "id": "11",
@@ -111,7 +165,13 @@
     "imageURL": "/images/IMG_20250603_184717.jpg",
     "description": "Palms stand still in twilight's breath, Guarding dreams as day meets death."
   },
-  
+   {
+    "id": "36",
+    "title": "Rose Hour Silence",
+    "category": "skies",
+    "imageURL": "/images/Snew3.jpeg",
+    "description": "The sky glows with blush tones as sunset settles into a peaceful, lingering hush."
+  },
   {
     "id": "15",
     "title": "Twilight Whispers in Crimson",
@@ -126,7 +186,21 @@
     "imageURL": "/images/IMG_20250319_185023.jpg",
     "description": "Shadows melt in ember light, The land exhales the breath of night."
   },
+  {
+    "id": "34",
+    "title": "Golden Horizon Glow",
+    "category": "skies",
+    "imageURL": "/images/Snew1.jpeg",
+    "description": "A serene sunset washes the sky in warm gold, with clouds drifting softly across the horizon."
+  },
   
+  {
+    "id": "45",
+    "title": "Blooming Moonlight",
+    "category": "flowers",
+    "imageURL": "/images/Fnew3.jpeg",
+    "description": "A graceful flower opening under mellow light, as delicate as a whispered dream."
+  },
   {
     "id": "16",
     "title": "Scarlet Dawn Embrace",
@@ -224,5 +298,14 @@
     "category": "flowers",
     "imageURL": "/images/new2.jpeg",
     "description": "The **soft, rosy** blush of an elegant orchid as it first unfolds, its delicate heart seeming to embrace the morning sky."
+  },
+  {
+    "id": "44",
+    "title": "Golden Bloom Whisper",
+    "category": "flowers",
+    "imageURL": "/images/Fnew1.jpeg",
+    "description": "A radiant bloom caught in warm light, glowing with soft golden petals and quiet elegance."
   }
+  
+  
 ]

@@ -13,7 +13,7 @@ const SkyCloudsSection = ({ images, openModal }) => {
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          Sky of Clouds
+          Sunsets
         </motion.h2>
 
         <motion.div

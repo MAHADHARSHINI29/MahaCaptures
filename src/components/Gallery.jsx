@@ -20,7 +20,7 @@ const Gallery = ({ onPhotoClick }) => {
     },
     {
       id: 'skies',
-      title: 'Sky of Clouds',
+      title: 'Sunsets',
       subtitle: 'Shifting Moods',
       description: 'I fell in love with photography because the sky never stays the same — clouds shift like moods, and every sunset feels like a whispered masterpiece.',
       photos: photosData.filter(p => p.category === 'skies')
