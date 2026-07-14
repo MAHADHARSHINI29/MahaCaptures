@@ -59,10 +59,11 @@ const Gallery = ({ onPhotoClick }) => {
 
           <div className="gallery-grid-large">
             <AnimatePresence>
-              {section.photos.map(photo => (
+              {section.photos.map((photo, index) => (
                 <PhotoCard
                   key={photo.id}
                   photo={photo}
+                  index={index}
                   onClick={onPhotoClick}
                   onLike={handleLike}
                   isLiked={likedPhotos.includes(photo.id)}

@@ -3,8 +3,9 @@ import { motion } from 'framer-motion';
 import { Heart, Maximize2 } from 'lucide-react';
 import '../styles/PhotoCard.css';
 
-const PhotoCard = ({ photo, onClick, onLike, isLiked }) => {
+const PhotoCard = ({ photo, onClick, onLike, isLiked, index = 0 }) => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const shouldLoadEagerly = index < 4;
 
   return (
     <motion.div 
@@ -26,7 +27,9 @@ const PhotoCard = ({ photo, onClick, onLike, isLiked }) => {
           alt={photo.title}
           onLoad={() => setIsLoaded(true)}
           className={`card-image ${isLoaded ? 'loaded' : ''}`}
-          loading="lazy"
+          loading={shouldLoadEagerly ? 'eager' : 'lazy'}
+          decoding="async"
+          fetchPriority={shouldLoadEagerly ? 'high' : 'low'}
         />
         
         <div className="card-overlay">
