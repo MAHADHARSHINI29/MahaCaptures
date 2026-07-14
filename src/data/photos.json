@@ -85,13 +85,7 @@
     "description": "Every sunset brings a soft embrace, A warm goodbye, a timeless grace."
   },
   
-  {
-    "id": "35",
-    "title": "Velvet Sunset Drift",
-    "category": "skies",
-    "imageURL": "/images/Snew2.jpeg",
-    "description": "Soft layers of color melt across the sky as the evening light settles into quiet beauty."
-  },
+  
  
   
   {
@@ -165,6 +159,13 @@
     "category": "skies",
     "imageURL": "/images/Snew3.jpeg",
     "description": "The sky glows with blush tones as sunset settles into a peaceful, lingering hush."
+  },
+  {
+    "id": "35",
+    "title": "Velvet Sunset Drift",
+    "category": "skies",
+    "imageURL": "/images/Snew2.jpeg",
+    "description": "Soft layers of color melt across the sky as the evening light settles into quiet beauty."
   },
   {
     "id": "15",
