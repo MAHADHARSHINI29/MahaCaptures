@@ -1,18 +1,38 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { supabase } from '../lib/supabase';
 import '../styles/Contact.css';
 
 const Contact = () => {
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('Sending...');
-    // Simulate frontend only submission
-    setTimeout(() => {
-      setStatus('Message sent successfully! (Simulated)');
-    }, 1500);
+
+    const { error } = await supabase.from('messages').insert([
+      {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      },
+    ]);
+
+    if (error) {
+      console.error('Supabase insert error', error);
+      setStatus(`Failed to send message: ${error.message}`);
+      return;
+    }
+
+    setStatus('Message sent successfully!');
+    setFormData({ name: '', email: '', message: '' });
   };
 
   return (
@@ -58,15 +78,15 @@ const Contact = () => {
           <form className="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
               <label>Full Name</label>
-              <input type="text" placeholder="Mahadharshini" required />
+              <input name="name" value={formData.name} onChange={handleChange} type="text" placeholder="Mahadharshini" required />
             </div>
             <div className="form-group">
               <label>Email Address</label>
-              <input type="email" placeholder="mahadharu2931@gmail.com" required />
+              <input name="email" value={formData.email} onChange={handleChange} type="email" placeholder="mahadharu2931@gmail.com" required />
             </div>
             <div className="form-group">
               <label>Message</label>
-              <textarea placeholder="Write your message here..." rows="6" required></textarea>
+              <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Write your message here..." rows="6" required></textarea>
             </div>
             <button type="submit" className="submit-btn" disabled={status.includes('Sending')}>
               {status.includes('Sending') ? 'Sending...' : (
